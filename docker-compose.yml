@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  codeudd:
+    image: ${DOCKER_REGISTRY-}codeudd
+    build:
+      context: .
+      dockerfile: CodeUdd/Dockerfile

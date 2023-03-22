@@ -1,0 +1,13 @@
+/Users/alex/Projects/CodeUdd/CodeUdd.Data/bin/Debug/netcoreapp3.1/CodeUdd.Data.deps.json
+/Users/alex/Projects/CodeUdd/CodeUdd.Data/bin/Debug/netcoreapp3.1/CodeUdd.Data.dll
+/Users/alex/Projects/CodeUdd/CodeUdd.Data/bin/Debug/netcoreapp3.1/CodeUdd.Data.pdb
+/Users/alex/Projects/CodeUdd/CodeUdd.Data/bin/Debug/netcoreapp3.1/CodeUdd.Dto.dll
+/Users/alex/Projects/CodeUdd/CodeUdd.Data/bin/Debug/netcoreapp3.1/CodeUdd.Dto.pdb
+/Users/alex/Projects/CodeUdd/CodeUdd.Data/obj/Debug/netcoreapp3.1/CodeUdd.Data.csproj.AssemblyReference.cache
+/Users/alex/Projects/CodeUdd/CodeUdd.Data/obj/Debug/netcoreapp3.1/CodeUdd.Data.GeneratedMSBuildEditorConfig.editorconfig
+/Users/alex/Projects/CodeUdd/CodeUdd.Data/obj/Debug/netcoreapp3.1/CodeUdd.Data.AssemblyInfoInputs.cache
+/Users/alex/Projects/CodeUdd/CodeUdd.Data/obj/Debug/netcoreapp3.1/CodeUdd.Data.AssemblyInfo.cs
+/Users/alex/Projects/CodeUdd/CodeUdd.Data/obj/Debug/netcoreapp3.1/CodeUdd.Data.csproj.CoreCompileInputs.cache
+/Users/alex/Projects/CodeUdd/CodeUdd.Data/obj/Debug/netcoreapp3.1/CodeUdd.Data.csproj.CopyComplete
+/Users/alex/Projects/CodeUdd/CodeUdd.Data/obj/Debug/netcoreapp3.1/CodeUdd.Data.dll
+/Users/alex/Projects/CodeUdd/CodeUdd.Data/obj/Debug/netcoreapp3.1/CodeUdd.Data.pdb
