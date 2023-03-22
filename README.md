@@ -5,25 +5,39 @@ Este proyecto implementa un endpoint que recibe el nombre de una persona, una fe
 # Requisitos
 Para ejecutar este proyecto, es necesario tener instalado lo siguiente:
 
-.NET 5.0 SDK
-SQL Server LocalDB
-Visual Studio o Visual Studio Code
+- .NET 3.1 SDK
+- SQL Server LocalDB
+- Visual Studio o Visual Studio Code
+
+### Instrucciones de uso
+Para utilizar este API endpoint, sigue los siguientes pasos:
+
+- Clona el repositorio en tu máquina local.
+- Abre una terminal en el directorio del repositorio y ejecuta el siguiente comando:
+
+```sh
+dotnet run
+```
 
 ## Endpoints Disponibles
 ### Registrar Persona
 Permite registrar información de una persona y almacenarla en la base de datos. También verifica si la fecha proporcionada corresponde a un feriado legal en Chile.
 
 URL: POST /api/personas
+La petición debe incluir un objeto JSON con el siguiente formato:
 
 #### Request Body:
 
 ```json
 {
-    "id": 1,
     "nombre": "Juan Perez",
     "fechaNacimiento": "1990-06-22"
 }
 ```
+
+Donde `nombre` es el nombre de la persona y `fecha` es la fecha que deseas almacenar.
+
+El API endpoint devolverá un objeto JSON con el siguiente formato:
 #### Response:
 ```json
 {
@@ -75,7 +89,23 @@ La API utiliza los patrones de diseño CQRS (Command Query Responsibility Segreg
 ### Comandos de Entity Framework
 Para utilizar Entity Framework en la API, se deben ejecutar los siguientes comandos en la consola de administración de paquetes de Visual Studio:
 ```sh
+Install-Package Microsoft.EntityFrameworkCore
 Install-Package Microsoft.EntityFrameworkCore.SqlServer
 Install-Package Microsoft.EntityFrameworkCore.Tools
+Install-Package Microsoft.EntityFrameworkCore.Design
 ```
+
+#### Tecnologías utilizadas
+Este proyecto fue creado utilizando las siguientes tecnologías:
+
+- .NET Core 3.1
+- SQL Server LocalDB
+- Entity Framework Core
+- CQRS
+- SOLID
+- Swagger
+
+
+# Agradecimientos
+Este proyecto fue creado como parte de un ejercicio práctico, y se basa en las enseñanzas y tutoriales de la comunidad de .NET y C#. Agradecemos a todos los que han contribuido con su conocimiento y experiencia a través de la web, y esperamos que este proyecto sea de utilidad para otros desarrolladores.
 
